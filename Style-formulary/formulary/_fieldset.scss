@@ -1,0 +1,30 @@
+body {
+    background-color: $primaryColor;
+    background-image: url(https://images4.alphacoders.com/104/thumb-1920-1041847.jpg);
+        
+}
+
+fieldset {
+    background-color: rgba(240, 240, 240, 0.781);
+    width: 800px;
+    text-align:justify;
+    transform: translate(60%);
+}
+
+h1 {
+    margin-top: 150px;
+    background-color: rgba(240, 240, 240, 0.781);
+    width: 800px;
+    text-align:justify;
+    transform: translate(64%);  
+}
+
+legend {
+    background-color: rgb(240, 240, 240); 
+}
+
+button {
+    margin-left: 500px;  
+    transform: translate(60%);
+}
+

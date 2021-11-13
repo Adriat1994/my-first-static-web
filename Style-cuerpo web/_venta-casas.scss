@@ -1,0 +1,73 @@
+//Este estilo es el que va agrupar TODAS las tarjetas, para que se coloquen como queremos
+.agrupacion-casas {
+    
+    display: flex;
+    justify-content: space-around;
+    height: 351px;
+    flex-wrap: wrap;
+}
+
+//Este estilo es para cada tarjeta donde se va a mostrar cada casa
+.cada-casa {
+    
+    width: 500px;
+    height: 351px;
+   
+    perspective: 1000px; 
+    display: flex;
+    
+}
+
+//Este estilo posiciona la parte delantera y la trasera de la tarjeta
+.casas {
+    position: relative;
+    width: 500px;
+    height: 351px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+//Este estilo hace el giro de la tarjeta al pasar el raton por encima
+.cada-casa:hover .casas {
+    transform: rotateY(180deg);
+}
+
+//Este estilo posiciona la parte de alante y la de atras para que se ajusten una detras de otra
+.img-casa, .img-trasera {
+    position: absolute;
+    width: 500px;
+    height: 351px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+//Estilo de la parte delantera de la tarjeta
+.img-casa {
+    background-color: #bbb;
+    color: black;
+}
+
+//Estilo de la parte trasera de la tarjeta
+.img-trasera {
+    background-color: white;
+    text-align: center;
+    transform: rotateY(180deg); 
+    
+}
+
+//Estilo de las imagenes por si son muy grandes o pequeñas y ajustarlas
+.img-venta {
+    width: 500px;
+    height: 300px; 
+}
+
+//Estilo de los textos traseros de las img
+.texto-casa {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p-casas {
+    color: white;
+}

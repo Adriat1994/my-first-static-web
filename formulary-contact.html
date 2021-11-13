@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="./Style-formulary/style.css">
+</head>
+<body>
+    <h1>¡Facilitanos tus datos para poder contactar contigo!</h1>
+    <form action="https://reqres.in/api/users" method="POST" autocomplete="off">
+        <fieldset>
+            <legend>
+                Datos personales
+            </legend>
+
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="name">Apellidos:</label>
+            <input type="text" id="lname" name="lname" required>
+
+            <label for="world">¿Desde donde nos visitas?</label>
+            <select name="world" id="world">
+                <option value="La Tierra">La Tierra</option>
+                <option value="Otro Planeta">Otro Planeta</option>                
+            </select>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="dateofbirth">Fecha de nacimiento:</label>
+            <input type="date" id="dateofbirth" name="dateofbirth" required>
+
+            <label for="age">Edad:</label>
+            <input type="age" id="age" name="age" required>
+            <br>
+            <br>
+            <label for="message">Tu comentario (opcional):</label>
+            <br>
+            <textarea name="message" id="message" cols="60" rows="5" placeholder="Escribe aquí tu mensaje"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferencias</legend>
+
+            <label for="vip">¿Quieres ser cliente VIP?</label>
+            <input type="checkbox" id="vip" name="vip">
+            <h6>Sea consciente de que al seleccionar la opción VIP, está usted interesado en futuras promociones y en promociones especiales</h6>                      
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
