@@ -8,7 +8,7 @@ Así mismo, fue muy buen ejercicio para comenzar a comprender las diferencias en
 La web cuenta con un formulario que desafortunadamente no sirve para gran cosa, pero me ayudo a entender la estructura de los formularios, para sacarle partido en React y Angular.
 
   ## URL para ver el resultado
-Para ver proyecto en directo puedes verlo aquí (https://adriat1994.github.io/my-first-static-web/#house)
+Para ver el proyecto en directo puedes verlo aquí (https://adriat1994.github.io/my-first-static-web/#house)
 
 
   ## Autor ✒️
